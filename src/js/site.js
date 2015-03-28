@@ -42,7 +42,7 @@ $(document).ready(function() {
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
       $body.addClass('has-docked-nav');
-      $('#freelance-nav').removeClass('hidden-name-offset-about');
+      $('#projects-nav').removeClass('hidden-name-offset-about');
       $('#name').removeClass('hide-navbar-name');
       $('#name').addClass('navbar-name-offset');
     }
@@ -50,7 +50,7 @@ $(document).ready(function() {
       $body.removeClass('has-docked-nav');
       $('#name').removeClass('navbar-name-offset');
       $('#name').addClass('hide-navbar-name');
-      $('#freelance-nav').addClass('hidden-name-offset-about');
+      $('#projects-nav').addClass('hidden-name-offset-about');
 
     }
   }
