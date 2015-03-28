@@ -16,7 +16,6 @@
   letter-spacing: .2rem;
   font-weight: 600; }
 .docs-section {
-  border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
 .value-img {
@@ -88,8 +87,6 @@
 
 /* Larger than phone */
 @media (min-width: 550px) {
-  .header {
-    margin-top: 14rem; }
   .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem; }
@@ -113,6 +110,11 @@
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  .header {
+    margin-top: 14rem; }
+  .links{
+    display:none;
+  }
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
@@ -139,9 +141,9 @@
   .hide-navbar-name{
     display: none;}
   .navbar-name-offset{
-    padding-left: 70px;}
+    padding-left: 60px;}
   .hidden-name-offset-about{
-    padding-left:160px;}
+    padding-left:150px;}
   .navbar-link {
     text-transform: uppercase;
     font-size: 11px;

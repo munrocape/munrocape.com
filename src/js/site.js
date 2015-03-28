@@ -42,15 +42,15 @@ $(document).ready(function() {
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
       $body.addClass('has-docked-nav');
-      $('#about').removeClass('hidden-name-offset-about');
+      $('#freelance-nav').removeClass('hidden-name-offset-about');
       $('#name').removeClass('hide-navbar-name');
       $('#name').addClass('navbar-name-offset');
     }
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
       $body.removeClass('has-docked-nav');
-      $('name').removeClass('navbar-name-offset');
+      $('#name').removeClass('navbar-name-offset');
       $('#name').addClass('hide-navbar-name');
-      $('#about').addClass('hidden-name-offset-about');
+      $('#freelance-nav').addClass('hidden-name-offset-about');
 
     }
   }

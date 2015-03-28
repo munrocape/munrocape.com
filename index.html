@@ -18,20 +18,24 @@
 </head>
 <body>
   <div class="container">
-    <section class="header">
+    <section id="top" class="header">
       <h2 class="title">Hi, I'm Zach.</h2>
       <h5>I'm a fourth year Computer Science student at the University of Toronto.</h5>
       <h5>Currently, I'm on a co-op in Hamilton, Bermuda.</h5>
+      <div class="links">
+        <h5>Below, you'll find samples of past work.</h5>
+        <h5>Alternatively, you can view my <a href="#projects">resume</a> or <a href="mailto:zach.munrocape@gmail.com">send me an email</a>.</h5>
+      </div>
     </section>
     <div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="hide-navbar-name navbar-item" id="name"><a class="navbar-link" href="#about">Zach Munro-Cape</a></li>
-          <li class="hidden-name-offset-about navbar-item" id="about"><a class="navbar-link" href="#about"><span>/</span>About</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#freelance"><span>/</span>Freelance</a></li>
+          <li class="hide-navbar-name navbar-item" id="name"><a class="navbar-link" href="#top">Zach Munro-Cape</a></li>
+          <li class="hidden-name-offset-about navbar-item" id="freelance-nav"><a class="navbar-link" href="#freelance"><span>/</span>Freelance</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#projects"><span>/</span>Personal Projects</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#resume"><span>/</span>Resume</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="mailto:zach.munrocape@gmail.com"><span>/</span>Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -41,13 +45,12 @@
       <div class="docs-section examples" id="examples">
         <h6 class="docs-header">Freelance work</h6>
         <div class="row example">
-          <a class="example-screenshot-wrapper" href="http://munrocape.github.io/nc-frosh-2014/">
+          <div class="example-screenshot-wrapper">
             <img class="example-screenshot" src="src/images/lokafy.png">
-          </a>
+          </div>
           <div class="one-half offset-by-one-half column">
             <h6 class="example-header">Lokafy</h6>
-            <p class="example-description">Lokafy had a manual booking, matching, and payment process. I automated these processes which greatly reduced the time taken to onboard clients and employees.</p>
-            <p>You can view the website <a href="http://www.lokafy.com">here</a>.</p>
+            <p class="example-description">I automated and streamlined a number of business processes such as transactional communications, client booking, and payment processes.</p>
           </div>
         </div>
         <div class="row example">
