@@ -7,9 +7,6 @@
    text-align: center; }
 a {
   text-decoration: none;}
-.href-punctuation{
-  position:relative;
-  left:-4px}
 .resume-href{
   color:#F19A3E !important;}
 .email-href{
@@ -128,6 +125,9 @@ a {
   .links{
     display:none;
   }
+  .href-punctuation{
+    position:relative;
+    left:-4px}
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
