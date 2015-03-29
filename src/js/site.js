@@ -11,7 +11,9 @@ $(document).ready(function() {
     $window.on('scroll', onScroll);
     $window.on('resize', resize);
     $('a[href^="#"]').on('click', smoothScroll);
-    $('a.jsj').judy();
+    if ($window.width() > 860) {
+      $('a.jsj').judy();
+    }
   }
 
   function smoothScroll(e) {
