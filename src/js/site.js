@@ -8,9 +8,10 @@ $(document).ready(function() {
       $document = $(document)
 
   function init() {
-    $window.on('scroll', onScroll)
-    $window.on('resize', resize)
-    $('a[href^="#"]').on('click', smoothScroll)
+    $window.on('scroll', onScroll);
+    $window.on('resize', resize);
+    $('a[href^="#"]').on('click', smoothScroll);
+    $('a.jsj').judy();
   }
 
   function smoothScroll(e) {
