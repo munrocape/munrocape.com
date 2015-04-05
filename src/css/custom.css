@@ -97,6 +97,9 @@ a {
 
 /* Larger than phone */
 @media (min-width: 550px) {
+  .href-punctuation{
+    position:relative;
+    left:0px}
   .value-props {
     margin-top: 9rem;
     margin-bottom: 7rem; }
@@ -121,7 +124,7 @@ a {
 /* Larger than tablet */
 @media (min-width: 960px) {
   .header {
-    margin-top: 14rem; }
+    margin-top: 12rem; }
   .links{
     display:none;
   }
