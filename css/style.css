@@ -11,23 +11,28 @@ p {
 }
 
 .roboto {
+	font-family: "Roboto";
+}
+
+.mono {
 	font-family: "Roboto Mono";
 }
 
 a {
+	font-family: "Roboto Mono";
 	color: #F8C7CC;
 }
 
 a:hover {
-	color: #F2B35C;
+	color: #B74F6F;
 }
 
 ::selection {
-  background: #2AFAC7;
+  background: #9BFFD7;
 }
 
 ::-moz-selection {
-  background: #2AFAC7; 
+  background: #9BFFD7; 
 }
 
 .underline {
