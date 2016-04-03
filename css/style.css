@@ -1,0 +1,36 @@
+html {
+	background-color: #7180AC;
+}
+
+p {
+	color:#0E1923;
+}
+
+.capriola {
+	font-family: "Capriola", sans-serif;
+}
+
+.roboto {
+	font-family: "Roboto Mono";
+}
+
+a {
+	color: #F8C7CC;
+}
+
+a:hover {
+	color: #F2B35C;
+}
+
+::selection {
+  background: #2AFAC7;
+}
+
+::-moz-selection {
+  background: #2AFAC7; 
+}
+
+.underline {
+	text-decoration: underline;
+}
+
